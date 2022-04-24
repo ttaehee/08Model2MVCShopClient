@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/httpcomponents-client-4.3.4"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/org.codehaus.jackson"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/json_simple-1.1-all"/>
+	<classpathentry kind="lib" path="C:/Users/YJHJ/Desktop/자르/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/YJHJ/Desktop/자르/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/YJHJ/Desktop/자르/fluent-hc-4.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/YJHJ/Desktop/자르/httpclient-4.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/YJHJ/Desktop/자르/httpclient-cache-4.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/YJHJ/Desktop/자르/httpcore-4.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/YJHJ/Desktop/자르/httpmime-4.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/YJHJ/Desktop/자르/jackson-core-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/YJHJ/Desktop/자르/jackson-mapper-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/YJHJ/Desktop/자르/json_simple-1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
