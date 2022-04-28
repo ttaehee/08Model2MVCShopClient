@@ -400,16 +400,6 @@ public class ProductRestHttpClientApp {
 		      httpPost.setHeader("Accept", "application/json");
 		      httpPost.setHeader("Content-Type", "application/json");
 		      
-//		      //[ 规过 1 : String 荤侩]
-//		      String data =  "{\"userId\":\"admin\",\"password\":\"1234\"}";
-//		      HttpEntity httpEntity01 = new StringEntity(data,"utf-8");
-		   
-//		      //[ 规过 2 : JSONObject 荤侩]
-//		      JSONObject json = new JSONObject();
-//		      json.put("userId", "admin");
-//		      json.put("password", "1234");
-//		      HttpEntity httpEntity01 = new StringEntity(json.toString(),"utf-8");
-		      
 		      //[ 规过 3 : codehaus 荤侩]
 		      Product product01 =  new Product();
 		      ObjectMapper objectMapper01 = new ObjectMapper();

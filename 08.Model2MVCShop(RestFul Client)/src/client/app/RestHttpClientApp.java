@@ -55,7 +55,7 @@ public class RestHttpClientApp {
 //      RestHttpClientApp.LoginTest_Codehaus();      
 	   
 //	   System.out.println("\n====================================\n");
-//	    RestHttpClientApp.listUserTest_JsonSimple();
+	    RestHttpClientApp.listUserTest_JsonSimple();
 	      
     //RestHttpClientApp.listUserTest_Codehaus();  
    
@@ -484,6 +484,7 @@ public class RestHttpClientApp {
 		      
 		      //[ 방법 2 : JSONObject 사용]
 		      JSONObject json = new JSONObject();
+
 		      HttpEntity httpEntity01 = new StringEntity(json.toString(),"utf-8");
 
 		      httpPost.setEntity(httpEntity01);
@@ -534,6 +535,7 @@ public class RestHttpClientApp {
 		      
 		      //[ 방법 3 : codehaus 사용]
 		      User user01 =  new User();
+		      
 		      ObjectMapper objectMapper01 = new ObjectMapper();
 		      //Object ==> JSON Value 로 변환
 		      String jsonValue = objectMapper01.writeValueAsString(user01);
